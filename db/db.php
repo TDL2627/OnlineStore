@@ -2,7 +2,7 @@
 $DB_SERVER="localhost:3308";
 $DB_USERNAME="TDL2627";
 $DB_PASSWORD="2627";
-$DB_DATABASE="estore";
+$DB_DATABASE="demo";
 
 $link =mysqli_connect($DB_SERVER, $DB_USERNAME, $DB_PASSWORD, $DB_DATABASE);
 
