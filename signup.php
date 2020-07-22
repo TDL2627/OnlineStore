@@ -79,7 +79,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 
                 header("location: index.php");
             } else{
-                echo " Please try again later.";
+                echo "Something went wrong. Please try again later.";
             }
 
            
@@ -91,7 +91,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     mysqli_close($link);
 }
 ?>
- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -118,7 +117,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <li class="nav-item active">
               <a class="nav-link" href="login.php">LOGIN <span class="sr-only">(current)</span></a>
             </li>
-    </ul>
+    </ul> 
     </nav>
     <div class="log">
         <h2>Sign Up</h2>
