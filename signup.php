@@ -105,7 +105,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <h1>NATE'S ONLINE LAPTOP STORE</h1>
+    
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">QUICK LINKS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,6 +122,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </ul> 
     </nav>
     <div class="log">
+    <h1>NATE'S ONLINE LAPTOP STORE</h1>
         <h2>Sign Up</h2>
         <p>Please fill this form to create an account.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">

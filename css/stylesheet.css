@@ -2,6 +2,10 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
 }
+h2 {
+   text-align: justify;
+}
+
 h3 {
     color: gold;
     text-align: center;

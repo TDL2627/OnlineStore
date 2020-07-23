@@ -37,6 +37,7 @@
       </nav>
     
     <h1>NATE'S ONLINE LAP TOP STORE</h1>
+    <h2>PRODUCTS</h2>
     <?php
     session_start();
 include('db/db.php');
@@ -86,7 +87,7 @@ if(!empty($_SESSION["shopping_cart"])) {
 $cart_count = count(array_keys($_SESSION["shopping_cart"]));
 ?>
 <div class="cart_div">
-<a href="cart.php"><img src="cart-icon.png" /> Cart<span>
+<a href="cart.php"><img src="images/cart.png" /> Cart<span>
 <?php echo $cart_count; ?></span></a>
 </div>
 <?php
