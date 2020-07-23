@@ -52,7 +52,7 @@ INSERT INTO `products` (`id`, `name`, `code`, `price`, `image`) VALUES
 (9, 'Mac Book', 'pc9', 1300.00, 'images/9.jpg'),
 (10, 'I-Combo 2', 'pc10', 3500.00, 'images/10.jpg'),
 (11, 'MAC Professional', 'pc11', 1700.00, 'images/11.jpg'),
-(12, 'Mac Book Air', 'pc12', 1499.99, 'images/12.jpg'),
+(12, 'Mac Book Air', 'pc12', 1499.99, 'images/12.jpg');
 
 
 
