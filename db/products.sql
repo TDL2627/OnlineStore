@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `allphptricks`
+-- Database: `estore`
 --
 
 -- --------------------------------------------------------
@@ -41,9 +41,24 @@ CREATE TABLE IF NOT EXISTS `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `code`, `price`, `image`) VALUES
-(1, 'Laptop Core i5', 'Laptop01', 600.00, 'product-images/laptop.jpg'),
-(2, 'Laptop Bag', 'Bag01', 50.00, 'product-images/laptop-bag.jpg'),
-(3, 'iPhone X', 'iphone01', 700.00, 'product-images/iphone.jpg');
+(1, 'Mac  Home', 'pc1', 1200.00, 'images/1.jpg'),
+(2, 'Apple Home MAX Laptop', 'pc2', 1799.99, 'images/2.jpg'),
+(3, 'I-PAD', 'pc3', 699.99, 'images/3.jpg'),
+(4, 'Apple  Home Laptop', 'pc4', 1011.00, 'images/4.jpg'),
+(5, 'Mac Developer Edition Laptop', 'pc5', 2500.00, 'images/5.jpg'),
+(6, 'Acer Smart Laptop', 'pc6', 700.00, 'images/6.jpg'),
+(7, 'I-COMBO 1 + BEATS Headphone ', 'pc7', 2649.99, 'images/7.jpg'),
+(8, 'Mac Book Pro', 'pc8', 1600.00, 'images/8.jpg'),
+(9, 'Mac Book', 'pc9', 1300.00, 'images/9.jpg'),
+(10, 'I-Combo 2', 'pc10', 3500.00, 'images/10.jpg'),
+(11, 'MAC Professional', 'pc11', 1700.00, 'images/11.jpg'),
+(12, 'Mac Book Air', 'pc12', 1499.99, 'images/12.jpg'),
+
+
+
+
+
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
