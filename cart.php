@@ -31,6 +31,7 @@
         </div>
       </nav>
       </body>
+      <h1>NATE'S ONLINE LAPTOP STORE </h3>
 <?php
 session_start();
 $status="";

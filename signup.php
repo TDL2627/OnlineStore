@@ -105,6 +105,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
 </head>
 <body>
+    <h1>NATE'S ONLINE LAPTOP STORE</h1>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">QUICK LINKS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

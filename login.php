@@ -122,6 +122,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div class="wrapper">
     <h1>WELCOME</h1>
     <div class="log">
+        <h1>NATE'S ONLINE LAP TOP STORE</h1>
         <h2>Login</h2>
         <p> Fill in your details below to login.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">

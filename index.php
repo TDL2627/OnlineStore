@@ -36,7 +36,7 @@
         </div>
       </nav>
     
-    <h1>NATE'S ONLINE STORE</h1>
+    <h1>NATE'S ONLINE LAP TOP STORE</h1>
     <?php
     session_start();
 include('db/db.php');
@@ -69,7 +69,7 @@ if(empty($_SESSION["shopping_cart"])) {
     $array_keys = array_keys($_SESSION["shopping_cart"]);
     if(in_array($code,$array_keys)) {
  $status = "<div class='box' style='color:red;'>
- Product is already added to your cart!</div>"; 
+ Product is already added to your cart, to add more go to cart.</div>"; 
     } else {
     $_SESSION["shopping_cart"] = array_merge(
     $_SESSION["shopping_cart"],
