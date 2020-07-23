@@ -11,5 +11,9 @@ if (!$link){
 }else{
     echo "MYSQL DATABASE connected successfully";
 }
-
+$con = mysqli_connect("localhost;3308","TDL2627","2627","estore");
+    if (mysqli_connect_errno()){
+ echo "Failed to connect to MySQL: " . mysqli_connect_error();
+ die();
+ }
 ?>
