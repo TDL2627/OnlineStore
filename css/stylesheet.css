@@ -2,6 +2,10 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
 }
+h3 {
+    color: gold;
+    text-align: center;
+}
 .log {
       color: black;
       border-color: green;
