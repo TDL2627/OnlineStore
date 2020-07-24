@@ -114,6 +114,8 @@ mysqli_close($con);
 <div class="message_box" style="margin:10px 0px;">
 <?php echo $status; ?>
 </div>
+<img id="to_top" src="images/cart.php" alt="go back to top">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
     <h3>DEVELOPED BY TDL2627</h3>
 </body>
 </html>
