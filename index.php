@@ -9,7 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <link rel="stylesheet" href="css/stylesheet.css">
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
-        <script src="script/topButton.js"></script>
+        <script src="script/button.js"></script>
 </head>
 <body>
 <body >
@@ -115,7 +115,9 @@ mysqli_close($con);
 <div class="message_box" style="margin:10px 0px;">
 <?php echo $status; ?>
 </div>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+
+
+
     <h3>DEVELOPED BY TDL2627</h3>
 </body>
 </html>
