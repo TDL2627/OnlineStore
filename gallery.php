@@ -30,6 +30,9 @@
             <li class="nav-item active">
               <a class="nav-link" href="cart.php">BASKET <span class="sr-only">(current)</span></a>
             </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="dashboard.php">ABOUT <span class="sr-only">(current)</span></a>
+            </li>
     </ul>
 
         </div>
